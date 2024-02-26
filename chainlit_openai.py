@@ -5,7 +5,7 @@ import chainlit as cl
 os.environ["HTTP_PROXY"] = "http://127.0.0.1:1087"
 os.environ["HTTPS_PROXY"] = "http://127.0.0.1:1087"
 
-client = AsyncOpenAI(api_key="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")
+client = AsyncOpenAI()
 
 
 settings = {
