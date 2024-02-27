@@ -1,6 +1,5 @@
 import chainlit as cl
 
-
 @cl.on_chat_start
 async def start():
     # Sending an action button within a chatbot message
